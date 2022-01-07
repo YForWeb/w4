@@ -29,8 +29,8 @@ function result() {
 
   newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':inserty:',yItem);
-  newStory = newStory.replace(':insertx:',yItem);
-  newStory = newStory.replace(':insertx:',zItem);
+  newStory = newStory.replace(':inserty:',yItem);
+  newStory = newStory.replace(':insertz:',zItem);
   newStory = newStory.replace(':insertz:',zItem);
   newStory = newStory.replace(':inserta:',aItem);
   newStory = newStory.replace(':insertb:',bItem);
