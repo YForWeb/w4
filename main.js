@@ -31,9 +31,9 @@ function result() {
   newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':insertz:',zItem);
-  newStory = newStory.replace(':inserty:',aItem);
-  newStory = newStory.replace(':insertz:',bItem);
-  newStory = newStory.replace(':inserty:',cItem);
+  newStory = newStory.replace(':inserta:',aItem);
+  newStory = newStory.replace(':insertb:',bItem);
+  newStory = newStory.replace(':insertc:',cItem);
 
   if (customName.value !== '') {
     const name = customName.value;
